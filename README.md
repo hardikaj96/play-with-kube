@@ -90,4 +90,14 @@ This guide walks you through the process of setting up Google Cloud, authenticat
      ```
    - Access your service at `http://localhost:8080` in your web browser.
 
+## 6. Delete GKE Cluster (Optional)
+
+6.1. **Delete GKE Cluster:**
+   - If you want to delete your GKE cluster, run the following command:
+     ```bash
+     gcloud container clusters delete your-cluster-name --zone your-preferred-zone
+     ```
+     Replace `your-cluster-name` with the actual name of your GKE cluster, and `your-preferred-zone` with the zone where your cluster is located.
+
+   - Confirm the deletion when prompted. This action is irreversible and will delete all associated resources.
 
